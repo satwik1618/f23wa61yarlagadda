@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   r=Math.random();
   log=Math.log(r);
-  res.send(`Sum is:${sum}`);
+  res.send(`Math log applied to ${r} is ${log}`);
 });
 
 module.exports = router;
